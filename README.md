@@ -46,9 +46,8 @@ OCR & CV → OpenCV, Tesseract OCR, YOLOv8 (Ultralytics)
 
 Data → Pandas, difflib
 
-Simulation → Random, Time (or IoT Hub/MQTT)
+Simulation → Random, Time 
 
-ML (optional) → scikit-learn, PyTorch
 ---
 ## 🌐 Future Enhancements
 
