@@ -37,8 +37,8 @@ A "real-time digital twin dashboard" that extracts equipment tags from P&ID diag
 │── 📂 results/              # Output / processed results  
 │   └── output.csv           # OCR + sensor results  
 
-
-🔧 Tech Stack
+---
+## 🔧 Tech Stack
 
 Frontend/UI → Streamlit, Matplotlib, NetworkX
 
@@ -49,8 +49,8 @@ Data → Pandas, difflib
 Simulation → Random, Time (or IoT Hub/MQTT)
 
 ML (optional) → scikit-learn, PyTorch
-
-🌐 Future Enhancements
+---
+## 🌐 Future Enhancements
 
 ✅ Real IoT integration (Azure IoT Hub / MQTT)
 
@@ -58,4 +58,4 @@ ML (optional) → scikit-learn, PyTorch
 
 ✅ Edge-based graph connections from actual P&ID lines
 
-✅ Cloud deployment (AWS/GCP/Azure)
+
