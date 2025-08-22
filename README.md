@@ -1,7 +1,7 @@
 # Static-to-Smart-
 # ⚙ Industrial P&ID Digital Twin Dashboard  
 
-A **real-time digital twin dashboard** that extracts equipment tags from P&ID diagrams using **OCR + YOLOv8 + OpenCV**, simulates/streams sensor values, and visualizes live system status in an interactive Streamlit app.  
+A "real-time digital twin dashboard" that extracts equipment tags from P&ID diagrams using **OCR + YOLOv8 + OpenCV**, simulates/streams sensor values, and visualizes live system status in an interactive Streamlit app.  
 
 ---
 
@@ -17,26 +17,24 @@ A **real-time digital twin dashboard** that extracts equipment tags from P&ID di
 ---
 
 ## 📂 Project Structure
-│── 📂 data/ # Sample data & equipment metadata
-│ ├── equipment_data.csv
-│ └── sample_pid.png
+
+│── 📜 README.md # Project documentation
+│── 📜 requirements.txt # Python dependencies
+│
+│── 📂 src/ # Core application code
+│ ├── app.py # Main Streamlit dashboard
+│ ├── detection.py # Detection logic (YOLOv8 + OpenCV + OCR)
+│ └── pid_ocr.py # OCR utilities & preprocessing
 │
 │── 📂 models/ # Pretrained / trained ML models
-│ └── yolov8_pid.pt
+│ └── yolov8_pid.pt # (example YOLOv8 model file)
 │
-│── 📂 src/ # Core source code
-│ ├── app.py # Main Streamlit dashboard
-│ ├── ocr_utils.py # OpenCV + Tesseract OCR functions
-│ ├── sensor_simulation.py# IoT data simulation / streaming
-│ ├── anomaly_detection.py# Threshold & ML anomaly detection
-│ └── graph_builder.py # Build & visualize equipment graph
+│── 📂 data/ # Input data & samples
+│ ├── sample_data.csv # Equipment metadata
+│ └── sample_pid.png # Sample P&ID image
 │
-│── 📂 notebooks/ # Jupyter notebooks
-│ 
-│
-│── requirements.txt # Python dependencies
-│── README.md # Project documentation
-└── .gitignore # Ignore cache, venv, logs
+│── 📂 results/ # Output / processed results
+│ └── output.csv # OCR + sensor results
 
 🔧 Tech Stack
 
