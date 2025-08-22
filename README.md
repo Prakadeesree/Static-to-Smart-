@@ -51,7 +51,7 @@ Simulation → Random, Time
 ---
 ## 🌐 Future Enhancements
 
-✅ Real IoT integration (Azure IoT Hub / MQTT)
+✅ Real IoT integration with database (Azure IoT Hub / MQTT)
 
 ✅ Advanced anomaly detection (LSTM / Autoencoder)
 
