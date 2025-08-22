@@ -1,0 +1,29 @@
+Tag,Equipment Type,Description,Location
+P-101,Pump,Main feedwater pump,Unit 1
+P102,Pump,Auxiliary cooling water pump,Unit 2
+P-103,Pump,Circulation pump for condenser,Unit 1
+P201,Pump,Boiler feed booster pump,Unit 3
+V-201,Valve,Control valve for steam flow,Unit 1
+V202,Valve,Isolation valve for condensate line,Unit 2
+V-203,Valve,Relief valve for safety,Unit 1
+V301,Valve,Manual valve for bypass line,Unit 3
+E-501,Heat Exchanger,Condenser heat exchanger,Unit 2
+E502,Heat Exchanger,Auxiliary cooling exchanger,Unit 2
+E-503,Heat Exchanger,Oil cooler exchanger,Unit 3
+TK601,Tank,Condensate storage tank,Unit 2
+TK-602,Tank,Deaerator tank,Unit 1
+TK603,Tank,Chemical dosing tank,Unit 3
+FIC-401,Flow Controller,Flow control loop for feedwater,Unit 2
+FIC402,Flow Controller,Bypass flow control,Unit 2
+LIC501,Level Controller,Water level monitoring in tank,Unit 3
+LIC-502,Level Controller,Drum level control,Unit 1
+TIC-301,Temperature Controller,Steam temperature monitoring,Unit 1
+TIC302,Temperature Controller,Reheater temperature control,Unit 2
+PSV-801,Pressure Relief Valve,Safety valve for steam drum,Unit 1
+PSV802,Pressure Relief Valve,Backup safety valve,Unit 3
+M-901,Mixer,Fuel-water mixer,Unit 2
+HX902,Heat Exchanger,Gas cooler exchanger,Unit 3
+C-701,Compressor,Main air compressor,Unit 1
+C702,Compressor,Backup air compressor,Unit 2
+GEN-001,Generator,Steam turbine generator,Unit 1
+GEN002,Generator,Auxiliary generator,Unit 3
