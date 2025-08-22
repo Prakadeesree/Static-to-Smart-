@@ -19,9 +19,13 @@ A "real-time digital twin dashboard" that extracts equipment tags from P&ID diag
 ## 📂 Project Structure
 
 │── 📜 README.md # Project documentation
+
 │── 📜 requirements.txt # Python dependencies
+
 │
+
 │── 📂 src/ # Core application code
+
 │ ├── app.py # Main Streamlit dashboard
 │ ├── detection.py # Detection logic (YOLOv8 + OpenCV + OCR)
 │ └── pid_ocr.py # OCR utilities & preprocessing
