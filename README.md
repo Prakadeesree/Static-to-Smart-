@@ -16,12 +16,9 @@ A "real-time digital twin dashboard" that extracts equipment tags from P&ID diag
 
 ---
 
-## 📂 Project Structure
 
 ## 📂 Project Structure
 
-``bash 
-pid-digital-twin/
 │── 📜 README.md             # Project documentation  
 │── 📜 requirements.txt      # Python dependencies  
 
