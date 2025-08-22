@@ -18,27 +18,28 @@ A "real-time digital twin dashboard" that extracts equipment tags from P&ID diag
 
 ## 📂 Project Structure
 
-│── 📜 README.md # Project documentation
+## 📂 Project Structure
 
-│── 📜 requirements.txt # Python dependencies
+``bash 
+pid-digital-twin/
+│── 📜 README.md             # Project documentation  
+│── 📜 requirements.txt      # Python dependencies  
 
-│
+│── 📂 src/                  # Core application code  
+│   ├── app.py               # Main Streamlit dashboard  
+│   ├── detection.py         # Detection logic (YOLOv8 + OpenCV + OCR)  
+│   └── pid_ocr.py           # OCR utilities & preprocessing  
 
-│── 📂 src/ # Core application code
+│── 📂 models/               # Pretrained / trained ML models  
+│   └── yolov8_pid.pt        # (example YOLOv8 model file)  
 
-│ ├── app.py # Main Streamlit dashboard
-│ ├── detection.py # Detection logic (YOLOv8 + OpenCV + OCR)
-│ └── pid_ocr.py # OCR utilities & preprocessing
-│
-│── 📂 models/ # Pretrained / trained ML models
-│ └── yolov8_pid.pt # (example YOLOv8 model file)
-│
-│── 📂 data/ # Input data & samples
-│ ├── sample_data.csv # Equipment metadata
-│ └── sample_pid.png # Sample P&ID image
-│
-│── 📂 results/ # Output / processed results
-│ └── output.csv # OCR + sensor results
+│── 📂 data/                 # Input data & samples  
+│   ├── sample_data.csv      # Equipment metadata  
+│   └── sample_pid.png       # Sample P&ID image  
+
+│── 📂 results/              # Output / processed results  
+│   └── output.csv           # OCR + sensor results  
+
 
 🔧 Tech Stack
 
